@@ -15,7 +15,7 @@ export const Sidebar = () => {
   return (
     <div className="s-layout__sidebar">
     <a className="s-sidebar__trigger" href="#0">
-       <i className="fa fa-bars">{bar}</i>
+       <i className="fa fa-bars">{bar}</i> 
     </a>
   
     <nav className="s-sidebar__nav">
@@ -34,10 +34,10 @@ export const Sidebar = () => {
              </Link>
           </li>
           <li>
-             <a className="s-sidebar__nav-link" href="#0">
+             <Link to='/manageTask' className="s-sidebar__nav-link" >
              <i style={{margin:'24px 20px'}} className="fa fa-user">{manageTask}</i><em>Manage Task</em>
                
-             </a>
+             </Link>
           </li>
        </ul>
     </nav>

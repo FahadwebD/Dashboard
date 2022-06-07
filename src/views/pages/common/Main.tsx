@@ -3,7 +3,10 @@ import {
   Route,
   Routes
 } from "react-router-dom";
-import { AddTask } from '../../components/AddTask';
+import { AddTask } from '../../components/CRUD/AddTask';
+import { UpdateTask } from '../../components/CRUD/UpdateTask';
+
+import { ManageTask } from '../../components/ManageTask';
 import { Table } from '../../components/Table';
 
 export const Main = () => {
@@ -13,6 +16,9 @@ export const Main = () => {
       <Routes>
       <Route path="/" element={<Table/>} />
         <Route path="/addTask" element={<AddTask/>} />
+        <Route path="/manageTask" element={<ManageTask/>} />
+        <Route path="/updateTasks" element={<UpdateTask/>} />
+
 
       </Routes>
      
