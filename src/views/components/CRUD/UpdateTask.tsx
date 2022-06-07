@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../../style/style.css'
-import updateTask from '../../../assets/images/list-completed-tasks-vector-illustration-isometric-design-isolated-white-background-checklist-successfully-completed-red-checkbox-businessman-holding-big-pencil-completion-goal-checkbox_153097-2362.webp'
+import updateTask from '../../../assets/images/update.png'
 export const UpdateTask = () => {
   return (
     <div>  <section className="wrapper">

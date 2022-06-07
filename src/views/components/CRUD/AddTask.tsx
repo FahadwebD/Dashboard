@@ -1,5 +1,5 @@
 import React from 'react'
-import addTaskPic from '../../../assets/images/manager-completing-tasks-time-vector-illustration_92753-1226.webp'
+import addTaskPic from '../../../assets/images/add.png'
 import '../../../style/style.css'
 export const AddTask = () => {
   return (
