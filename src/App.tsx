@@ -1,11 +1,9 @@
 import { TheLayout } from "./views/pages/TheLayout";
 
-
-
 function App() {
   return (
     <div className="App">
-     <TheLayout></TheLayout>
+      <TheLayout></TheLayout>
     </div>
   );
 }
