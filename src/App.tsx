@@ -23,8 +23,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <TheLayout></TheLayout> */}
-      <div style={{ padding: "15px" }}>
+      <TheLayout></TheLayout>
+      {/* <div style={{ padding: "15px" }}>
       {pending ? (
         <div>Loading...</div>
       ) : error ? (
@@ -36,7 +36,7 @@ function App() {
           </div>
         ))
       )}
-    </div>
+    </div> */}
     </div>
   );
 }
