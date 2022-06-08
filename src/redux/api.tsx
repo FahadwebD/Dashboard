@@ -1,7 +1,4 @@
-import React from 'react'
+import axios from "axios";
 
-export const api = () => {
-  return (
-    <div>api</div>
-  )
-}
+export const loadUserApi = async () =>
+await axios.get("https://jsonplaceholder.typicode.com/todos");
