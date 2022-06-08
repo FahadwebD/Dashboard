@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBarsStaggered, faClipboardList, faCoffee, faFileCirclePlus, faListCheck, faPaste  } from '@fortawesome/free-solid-svg-icons'
+import { faBarsStaggered,faFileCirclePlus, faListCheck, faPaste  } from '@fortawesome/free-solid-svg-icons'
 import '../../../style/style.css'
 
 export const Sidebar = () => {
 
-   const element = <FontAwesomeIcon icon={faCoffee} />
+ 
    const bar = <FontAwesomeIcon icon={faBarsStaggered} />
    const taskList = <FontAwesomeIcon icon={faListCheck} />
-   const listManage = <FontAwesomeIcon icon={faClipboardList}/>
+
    const manageTask = <FontAwesomeIcon icon={faPaste}/>
    const addTask = <FontAwesomeIcon icon={faFileCirclePlus} />
   return (

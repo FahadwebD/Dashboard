@@ -1,9 +1,18 @@
 import React from 'react'
 import '../../../style/style.css'
 import updateTask from '../../../assets/images/update.png'
+
+
+
+
+
 export const UpdateTask = () => {
+
+
+
   return (
-    <div>  <section className="wrapper">
+    <div> 
+       <section className="wrapper">
     <div className="container">
         <div className="img__container">
         <img src={updateTask} alt="salad" className="img"/> 
@@ -16,6 +25,7 @@ export const UpdateTask = () => {
             
         </div>
     </div>
-</section></div>
+</section>
+</div>
   )
 }
